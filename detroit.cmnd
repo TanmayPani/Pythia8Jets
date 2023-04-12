@@ -24,20 +24,11 @@ Beams:idA = 2212                   ! first beam, p = 2212, pbar = -2212
 Beams:idB = 2212                   ! second beam, p = 2212, pbar = -2212
 Beams:eCM = 200.                   ! CM energy of collision
 
-! 5a) Pick processes and kinematics cuts.
-!HardQCD:all = on
-!HardQCD:qq2qq = on
-HardQCD:gg2gg = on
-
-
 ! 6) Other settings. Can be expanded as desired.
 ! Note: may overwrite some of the values above, so watch out.
 PartonLevel:MPI = on
 PartonLevel:ISR = on
 PartonLevel:FSR = on
-! master switch for hadronization
-HadronLevel:Hadronize = on
-!HadronLevel:Decay = off
 
 ! settings for the new STAR Pythia8 tune!
 PDF:pSet = 17
